@@ -1,0 +1,88 @@
+.footer {
+    .wrapper {
+        background-color: #010101;
+        padding: 77px 0px 158px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        .top {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            h2 {
+                color: #FCDB00;
+                text-align: center;
+                font: {
+                    family: PT Sans;
+                    size: 40px;
+                    weight: 700;
+                }
+            }
+            p {
+                color: #8B8A8B;
+                text-align: center;
+                font: {
+                    family: PT Sans;
+                    size: 27px;
+                }
+                line-height: 40px;
+                max-width: 754px;
+            }
+            .email {
+                form {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+                    [type="email"] {
+                        width: 560px;
+                        height: 50px;
+                        border: none;
+                        outline: none;
+                        border-radius: 3px;
+                        padding-left: 20px;
+                        font: {
+                            size: 18px;
+                            family: PT Sans;
+                        }
+                        line-height: 27px;
+                        color: #8B8A8B;
+                    }
+                    [type="button"] {
+                        background-color: #FCDB00;
+                        outline: none;
+                        border: none;
+                        border-radius: 3px;
+                        color: #000;
+                        text-align: center;
+                        font: {
+                            family: PT Sans;
+                            weight: 700;
+                            size: 18px;
+                        }
+                        line-height: 24px;
+                        width: 174px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+        .bottom {
+            display: flex;
+            flex-direction: row;
+            gap: 116px;
+            p {
+                color: #fff;
+                font: {
+                    family: PT Sans;
+                    size: 18px
+                }
+                line-height: 27px;
+                width: 77px;
+            }
+            p:nth-child(1) {
+                width: 367px;
+            }
+        }
+    }
+}
